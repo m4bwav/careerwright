@@ -1,0 +1,5 @@
+{
+  "name": "careerwright",
+  "owner": {"name": "Mark Rogers"},
+  "plugins": [{"name": "careerwright", "source": "./", "description": "Tailored resumes, cover letters, application tracker and mock interviews"}]
+}

@@ -1,0 +1,47 @@
+{
+  "evergreen": "1.0",
+  "name": "careerwright",
+  "kind": "plugin",
+  "main": "skills/careerwright/SKILL.md",
+  "files": {
+    "research": "RESEARCH.md",
+    "changelog": "CHANGELOG.md",
+    "learnings": "LEARNINGS.md",
+    "tests": "TESTS.md"
+  },
+  "protocol": "plugin",
+  "source": null,
+  "topic": "Job-hunt tooling: ATS parsing behaviour, resume formats (JSON Resume, RenderCV), cover letter evidence, structured interview research, application trackers and job-search MCP servers",
+  "tier": "slow",
+  "interval_days": 60,
+  "last_checked": "2026-11-25",
+  "next_due": "2027-01-24",
+  "verify_at_use": false,
+  "volatile_claims": [
+    "ATS parser behaviour with tables and columns (Workday, Greenhouse, Lever)",
+    "job-search MCP servers available"
+  ],
+  "contradiction": null,
+  "events": [],
+  "streak": {
+    "quiet": 0,
+    "pinned_min": 0,
+    "pinned_max": 0,
+    "vau_quiet": 0
+  },
+  "history": [
+    {
+      "date": "2026-11-25",
+      "m": null,
+      "interval_after": 60,
+      "note": "created"
+    }
+  ],
+  "counts": {
+    "learnings": 0,
+    "changes": 1,
+    "research": 1,
+    "tests": 1
+  },
+  "consolidate_every": 25
+}

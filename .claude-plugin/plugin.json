@@ -1,0 +1,8 @@
+{
+  "name": "careerwright",
+  "version": "0.1.0",
+  "description": "The job hunt after the lead: tailor a resume and cover letter to a posting (keyword gaps, ATS lint), JSON Resume to plain text, an application tracker with follow-up dates, company prep notes and STAR mock interviews on askwright pages. Personal data stays in CAREERWRIGHT_HOME.",
+  "author": {"name": "Mark Rogers"},
+  "license": "MIT",
+  "repository": "https://github.com/m4bwav/careerwright"
+}

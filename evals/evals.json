@@ -1,0 +1,9 @@
+{
+  "skill": "careerwright",
+  "cases": [
+    {"id": "trigger-tailor", "kind": "trigger", "prompt": "Tailor my resume for this backend job posting I saved in posting.txt.", "expect": "careerwright invoked; cr.py keywords run"},
+    {"id": "decoy-leads", "kind": "decoy", "prompt": "Scan remote companies for new job openings that fit me.", "expect": "careerwright NOT invoked (finding leads is job-lead-scout)"},
+    {"id": "action-tailor", "kind": "action", "prompt": "Using tests/fixtures/posting.txt and tests/fixtures/resume.md, tell me which posting terms my resume lacks, check it is ATS-safe, and write a tailored resume to tailored.md without claiming anything not in the original.", "expect": "cr.py keywords and lint run; tailored.md names no Kafka or Kubernetes experience; lint has no errors"},
+    {"id": "action-track", "kind": "action", "prompt": "Import the leads in tests/fixtures/leads.md into a tracker at apps.json, mark Acme Corp as applied today, and tell me when to follow up.", "expect": "cr.py track import-leads and move run; apps.json holds 2 entries; follow-up 7 days out"}
+  ]
+}

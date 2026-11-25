@@ -1,0 +1,3 @@
+In 2023 our checkout service started timing out every Friday evening. I was the on-call lead and my job was to stop the outages before the holiday sale.
+I found that a report query held table locks for minutes, so I moved the report to a read replica and I added a timeout to the checkout path. I also wrote a runbook and I set up an alert on lock wait time.
+The result: no Friday timeouts in the twelve weeks after, and checkout p99 latency went down to 300 ms from 2 seconds. Next time I would add the alert first.

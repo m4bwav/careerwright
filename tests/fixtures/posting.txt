@@ -1,0 +1,13 @@
+Senior Backend Engineer (Remote)
+
+We are looking for a Senior Backend Engineer to join our payments platform team.
+You will design and build services in C# and .NET, run them on Kubernetes, and
+work with PostgreSQL and Kafka. Experience with React and TypeScript is a plus.
+
+Requirements:
+- 6+ years building backend services in C# and .NET
+- Event-driven architecture with Kafka
+- PostgreSQL performance tuning
+- Kubernetes and Docker in production
+- CI/CD with GitHub Actions
+- Mentoring other engineers

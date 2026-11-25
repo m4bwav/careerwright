@@ -1,0 +1,7 @@
+{"basics": {"name": "Alex Example", "label": "Backend Engineer", "email": "alex@example.com", "phone": "+1 555 010 0000",
+  "location": {"city": "Springfield", "region": "IL"}, "summary": "Backend engineer, payments.",
+  "profiles": [{"network": "GitHub", "url": "https://github.com/example"}]},
+ "work": [{"name": "Example Payments", "position": "Senior Engineer", "startDate": "2019-03-01",
+  "highlights": ["Cut nightly batch time from 4 hours to 40 minutes."]}],
+ "education": [{"institution": "State University", "studyType": "BS", "area": "Computer Science", "startDate": "2011-09", "endDate": "2015-05"}],
+ "skills": [{"name": "Languages", "keywords": ["C#", "TypeScript"]}]}
