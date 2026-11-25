@@ -15,7 +15,7 @@ Hard rule: never submit an application, send an email or message, or sign in to 
 
 1. Save the posting text as `posting.txt` in the application folder (ask for it if only a link is given and fetching fails).
 2. `cr.py keywords posting.txt <master resume>` lists the posting's terms and which the resume lacks.
-3. Write the tailored resume from the person's own history files, not from the posting: reorder bullets so the matching work comes first, use the posting's words for things the person has really done, and leave out a missing term rather than claim it. List the gaps that stay so the person can say if any is true.
+3. Write the tailored resume from the person's own history files, not from the posting: reorder bullets so the matching work comes first, use the posting's words for things the person has really done, and leave out a missing term rather than claim it. List the gaps that stay in your reply, never in the resume file (a gap line in the file counts as a match and fakes the coverage), so the person can say if any is true.
 4. `cr.py lint tailored.md` (or `.docx`): fix every error (tables, columns, text boxes, no email). One column, standard headings, dates on each role. Run `keywords` again and report the coverage before and after.
 5. If the person keeps a JSON Resume, `cr.py render resume.json --out resume.md` gives the plain one-column text to start from.
 
