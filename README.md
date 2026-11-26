@@ -2,7 +2,7 @@
 
 ![careerwright banner](.github/images/banner.jpg)
 
-The job hunt after the lead, as a Claude Code plugin. Give it a posting and your resume and it shows which of the posting's terms your resume lacks, checks the resume will survive an applicant tracking system, helps write a tailored resume and cover letter from your real history, tracks every application with follow-up dates, writes company prep notes, and runs STAR mock interviews on askwright pages.
+The job hunt after the lead, as an agent plugin. Give it a posting and your resume and it shows which of the posting's terms your resume lacks, checks the resume will survive an applicant tracking system, helps write a tailored resume and cover letter from your real history, tracks every application with follow-up dates, writes company prep notes, and runs STAR mock interviews on askwright pages.
 
 It never sends anything. Applications, emails and sign-ins stay with you.
 
